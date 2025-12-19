@@ -23,17 +23,17 @@ Hybrid Automation Framework developed using Selenium WebDriver with Java to auto
 - Configuration management using properties file
 
 ## Project Structure
+
+```
 OrangeHRM-Hybrid-Framework
 │
 ├── src/main/java
 │   ├── base
 │   │   └── BaseTest.java
-│   │
 │   ├── pages
 │   │   ├── LoginPage.java
 │   │   ├── PIMPage.java
 │   │   └── AddEmployeePage.java
-│   │
 │   └── utils
 │       ├── ConfigReader.java
 │       └── ExcelUtils.java
@@ -52,6 +52,8 @@ OrangeHRM-Hybrid-Framework
 ├── pom.xml
 ├── target
 └── test-output
+```
+
 
 ## Test Flow
 1. Launch browser
