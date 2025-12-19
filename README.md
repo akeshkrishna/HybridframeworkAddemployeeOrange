@@ -23,15 +23,35 @@ Hybrid Automation Framework developed using Selenium WebDriver with Java to auto
 - Configuration management using properties file
 
 ## Project Structure
-src/test/java
-  ├── base
-  ├── pages
-  ├── tests
-  └── utils
-
-src/test/resources
-  ├── config.properties
-  └── EmployeeData.xlsx
+OrangeHRM-Hybrid-Framework
+│
+├── src/main/java
+│   ├── base
+│   │   └── BaseTest.java
+│   │
+│   ├── pages
+│   │   ├── LoginPage.java
+│   │   ├── PIMPage.java
+│   │   └── AddEmployeePage.java
+│   │
+│   └── utils
+│       ├── ConfigReader.java
+│       └── ExcelUtils.java
+│
+├── src/main/resources
+│
+├── src/test/java
+│   └── tests
+│       ├── LoginTest.java
+│       └── AddEmployeeTest.java
+│
+├── src/test/resources
+│   ├── config.properties
+│   └── EmployeeData.xlsx
+│
+├── pom.xml
+├── target
+└── test-output
 
 ## Test Flow
 1. Launch browser
